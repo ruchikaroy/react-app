@@ -1,9 +1,9 @@
-import { Message } from "./message";
+import Alert from "./components/Alert";
 
 const App = () => {
   return (
     <div>
-      <Message />
+      <Alert>Hello Ruchika</Alert>
     </div>
   );
 };
