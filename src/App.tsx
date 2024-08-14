@@ -1,9 +1,11 @@
-import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 const App = () => {
   return (
     <div>
-      <Alert>Hello Ruchika</Alert>
+      <Button color="danger" onClick={() => console.log("clicked")}>
+        My Button
+      </Button>
     </div>
   );
 };
